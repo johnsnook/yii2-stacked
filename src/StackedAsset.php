@@ -1,5 +1,7 @@
 <?php
 
+namespace johnsnook\stacked;
+
 use yii\web\AssetBundle;
 
 /**
@@ -9,6 +11,7 @@ use yii\web\AssetBundle;
  */
 class StackedAsset extends AssetBundle {
 
+    public $publishOptions = ['forceCopy' => true];
     public $sourcePath = __DIR__ . "/assets";
     public $js = [
         'js/jquery.stacked.js'

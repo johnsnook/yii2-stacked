@@ -11,8 +11,9 @@
             "email": "jsnook@gmail.com"
         }
     ],
+    "minimum-stability": "dev",
+    "prefer-stable": true,
     "require": {
-        "yiisoft/yii2-jquery": "~1.0.0",
         "yiisoft/yii2-bootstrap": "^2.0"
     },
     "autoload": {

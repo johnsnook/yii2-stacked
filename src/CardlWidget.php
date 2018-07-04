@@ -1,6 +1,6 @@
 <?php
 
-namespace johnsnook\ipFilter\widgets\Stacked;
+namespace johnsnook\Stacked;
 
 /**
  * @author John Snook
@@ -46,6 +46,7 @@ class CardlWidget extends \yii\bootstrap\Widget {
     /** methods * */
     public function init() {
         parent::init();
+        static::$autoIdPrefix = 'card';
         if (empty($this->containerOptions)) {
             Html::addCssClass($this->containerOptions, 'card-default');
         }
