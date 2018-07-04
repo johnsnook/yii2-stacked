@@ -1,6 +1,6 @@
 Stacked: a tabbed alternative for Yii2
 =====================
-[![Latest Stable Version](https://poser.pugx.org/johnsnook/yii2-stacked/v/stable)](https://packagist.org/packages/johnsnook/yii2-stacked)![img](https://poser.pugx.org/johnsnook/yii2-stacked/downloads) ![img](https://poser.pugx.org/johnsnook/yii2-stacked/v/unstable) ![img](https://poser.pugx.org/johnsnook/yii2-stacked/license) ![img](https://poser.pugx.org/phpunit/phpunit/composerlock) 
+[![Latest Stable Version](https://poser.pugx.org/johnsnook/yii2-stacked/v/stable)](https://packagist.org/packages/johnsnook/yii2-stacked)![img](https://poser.pugx.org/johnsnook/yii2-stacked/downloads) ![img](https://poser.pugx.org/johnsnook/yii2-stacked/v/unstable) ![img](https://poser.pugx.org/johnsnook/yii2-stacked/license) ![img](https://poser.pugx.org/phpunit/phpunit/composerlock)
 
 I was testing some software the other day, and was having trouble remembering where I'd put a particular feature when I realized it had been under my nose the whole time, in a tab pane.  So I started thinking about a new way to put content out of the way without putting it out of sight, and this is what I came up with.
 
@@ -51,13 +51,13 @@ The PanelWidget is completely optional since the jQuery plugin will assume all t
         'gutterSize' => 35,
         'containerOptions' => ['style' => 'margin-top:40px; margin-bottom:40px;'],
     ]);
-    /** the panel widget makes nice and easy bootstrap 3 panels */    
+    /** the panel widget makes nice and easy bootstrap 3 panels */
     PanelWidget::begin([
         'containerOptions' => ['class' => 'panel-success'],
         'title' => "Panel #1"
     ]);
 ?>
-    <p>The two British divers who found 12 missing boys and their football coach alive in a flooded cave in Thailand boast extensive experience. Rick Stanton and John Volanthen, who reached the group nine days after they vanished, are so well known among cave rescuers that they had reportedly been requested specially. Yet their work is entirely voluntary; one is a firefighter, the other a computer engineer. And far from glorying in their role, Mr Volanthen had brushed off reporters as he entered the cave, saying only: “We’ve got a job to do.”</p>   
+<p>The two British divers who found 12 missing boys and their football coach alive in a flooded cave in Thailand boast extensive experience. Rick Stanton and John Volanthen, who reached the group nine days after they vanished, are so well known among cave rescuers that they had reportedly been requested specially. Yet their work is entirely voluntary; one is a firefighter, the other a computer engineer. And far from glorying in their role, Mr Volanthen had brushed off reporters as he entered the cave, saying only: “We’ve got a job to do.”</p>
 <?php
     PanelWidget::end();
 
@@ -66,14 +66,14 @@ The PanelWidget is completely optional since the jQuery plugin will assume all t
         'title' => "Panel #2"
     ]);
 ?>
-    <p>An intensifying debate over Judge Brett M. Kavanaugh, a front-runner in President Trump’s search for a Supreme Court nominee, gripped Republicans on Tuesday, with conservative critics highlighting past rulings and his links to GOP leaders while his allies — including inside the White House — forcefully defended him.</p>
-<?php    
+<p>An intensifying debate over Judge Brett M. Kavanaugh, a front-runner in President Trump’s search for a Supreme Court nominee, gripped Republicans on Tuesday, with conservative critics highlighting past rulings and his links to GOP leaders while his allies — including inside the White House — forcefully defended him.</p>
+<?php
 	PanelWidget::end();
 	/** all panels should be closed with ::end() before closing the StackedWidget. */
     StackedWidget::end();
-?>    
+?>
 ```
 
 Screenshot
 -----
-![stacked bs 3](E:\Projects\stacked bs 3.png)
+![stacked bs 3](https://user-images.githubusercontent.com/4065107/42294996-0c1528fc-7fb4-11e8-9f21-399ef994c82b.png)
