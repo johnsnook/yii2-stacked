@@ -7,7 +7,7 @@
  * @copyright 2018 John Snook Consulting
  */
 
-namespace johnsnook\Stacked;
+namespace johnsnook\stacked;
 
 use yii\bootstrap\Html;
 

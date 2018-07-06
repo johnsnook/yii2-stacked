@@ -5,9 +5,10 @@ namespace johnsnook\stacked;
 use yii\web\AssetBundle;
 
 /**
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
+ * @author John Snook
+ * @date 2018-07-2
+ * @license https://github.com/johnsnook/yii2-ip-filter/LICENSE
+ * @copyright 2018 John Snook Consulting
  */
 class StackedAsset extends AssetBundle {
 

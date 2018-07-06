@@ -7,11 +7,11 @@
  * @copyright 2018 John Snook Consulting
  */
 
-namespace johnsnook\Stacked;
+namespace johnsnook\stacked;
 
 use johnsnook\stacked\StackedAsset;
-use yii\bootstrap\Html;
-use yii\bootstrap\Widget;
+use yii\bootstrap4\Html;
+use yii\bootstrap4\Widget;
 
 /**
  * Stacked jquery plugin wrapper

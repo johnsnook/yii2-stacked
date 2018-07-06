@@ -1,6 +1,6 @@
 <?php
 
-namespace johnsnook\Stacked;
+namespace johnsnook\stacked;
 
 /**
  * @author John Snook
@@ -30,7 +30,7 @@ use yii\bootstrap4\Html;
  * <p class="card-text">
  * <?= echo CardlWidget::end();
  */
-class CardlWidget extends \yii\bootstrap\Widget {
+class CardWidget extends \yii\bootstrap\Widget {
 
     /** properties * */
     public $containerOptions;
